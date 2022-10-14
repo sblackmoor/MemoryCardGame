@@ -8,7 +8,17 @@
     <script src="./script.js" defer></script>
   </head>
   <body>
-    <div class="game-board">
+    <header>
+      <p><h1>Memory Card Game</h1></p>
+    </header>
+    <div class="features">
+      <p><button type="button" onClick="refreshPage()">Start New Game</button></p>
+      <p><h2 id="message"></h2></p>
+    </div>
+    <main>
+    <section>
+
+      <div class="game-board">
         <ul class="cards">
             <li class="card">
                 <div class="view front-view">
@@ -140,5 +150,7 @@
               </li>
         </ul>
       </div>
+      </section>
+    </main>
   </body>
 </html>

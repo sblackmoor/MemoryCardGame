@@ -4,8 +4,24 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6563FF;
+}
+
+.features {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background: #6563FF;
+  font-size: 2em;
+  text-align: center  ;
+}
   
-body {
+section {
     display: flex;
     align-items: center;
     justify-content: center;
